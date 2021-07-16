@@ -1,0 +1,13 @@
+{
+  "name": "spark-durable-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "durable-functions": "^1.5.1",
+    "node-fetch": "^2.6.1"
+  }
+}

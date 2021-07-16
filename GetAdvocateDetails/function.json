@@ -1,0 +1,9 @@
+{
+  "bindings": [
+    {
+      "name": "username",
+      "type": "activityTrigger",
+      "direction": "in"
+    }
+  ]
+}
