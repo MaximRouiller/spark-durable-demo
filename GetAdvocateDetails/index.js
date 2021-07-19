@@ -1,6 +1,8 @@
 ﻿const fetch = require('node-fetch').default;
 let appInsights = require('applicationinsights');
-appInsights.setup().start();
+appInsights.setup();
+appInsights.defaultClient.setAutoPopulateAzureProperties(true);
+appInsights.start();
 
 module.exports = async function (context) {
     const time = Date.now();
